@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/interior.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Portfolio Interior</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="../portfolio2/home.html"><img src="./assets/images/brick-icon.png" alt=""></a></div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="lookbook.html">Lookbook</a></li>
+                <li><a href="furniture.html">Furniture</a></li>
+                <li><a href="interior.html">Interior</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </nav>
+        <p class="hbg-menu" onclick="myNavigation()">&#x2630;</p>
+        <div id="hbgNav" class="hbg-nav">
+            <div class="times"><p onclick="myNavClosing()">&#xd7;</p></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="lookbook.html">Lookbook</a></li>
+                <li><a href="furniture.html">Furniture</a></li>
+                <li><a href="interior.html">Interior</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="sidebar">
+                <h2>menu</h2>
+                <p class="right" onclick="myOpening()">&#x25ba;</p>
+                <p class="left" onclick="myClosing()">&#x25ba;</p>
+            </section>
+            <div id="sidebarMenu">
+                <ul>
+                    <li><strong><a href="furniture.html">Furniture</a></strong>
+                        <ul class="child">
+                            <li><a href="#table">Table</a></li>
+                            <li><a href="#chair">Chair</a></li>
+                            <li><a href="#couch">Couch</a></li>
+                            <li><a href="#other">Other</a></li>
+                        </ul>
+                    </li>
+                    <li><strong><a href="interior.html">Interior</a></strong>
+                        <ul class="child">
+                            <li><a href="interior.html#living-room">Living Room</a></li>
+                            <li><a href="interior.html#dining-room">Dining Room</a></li>
+                            <li><a href="interior.html#kitchen">Kitchen</a></li>
+                            <li><a href="interior.html#bedroom">Bedroom</a></li>
+                        </ul>
+                    </li>
+                    <li><strong><a href="news.html">News</a></strong></li>
+                </ul>
+            </div>
+        <div class="products-wrapper" id="productsWrapper">
+            <section class="tables">
+                <div class="label"><a href="" id="living-room">Living Room</a></div>
+                <div class="products">
+                    <div class="img-con img-1"><img src="./assets/images/cushion-1.jpg" alt=""><div class="filter"><p class="heart">&#x2764;</div><p>cushion</p><p>$49.00</p></div>
+                    <div class="img-con img-2"><img src="./assets/images/light-4.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>light</p><p>$79.00</p></div>
+                    <div class="img-con img-3"><img src="./assets/images/look1-cushion.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>cushion</p><p>$69.00</p></div>
+                    <div class="img-con img-4"><img src="./assets/images/light-3.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>light</p><p>$89.00</p></div>
+                </div>
+                <div class="button"><button>view more</button></div>
+            </section>
+            <section class="chairs">
+                    <div class="label"><a href="" id="dining-room">Dining Room</a></div>
+                    <div class="products">
+                        <div class="img-con img-1"><img src="./assets/images/look1-watch.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>clock</p><p>$49.00</p></div>
+                        <div class="img-con img-2"><img src="./assets/images/look1-light.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>light</p><p>$69.00</p></div>
+                        <div class="img-con img-3"><img src="./assets/images/light-5.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>glass candle holder</p><p>$129.00</p></div>
+                        <div class="img-con img-4"><img src="./assets/images/look1-plant.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>house plant</p><p>$159.00</p></div>
+                    </div>
+                    <div class="button"><button>view more</button></div>
+            </section>
+            <section class="couches">
+                    <div class="label"><a href="" id="kitchen">Kitchen</a></div>
+                    <div class="products">
+                        <div class="img-con img-1"><img src="./assets/images/kitchen-1.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>bar stools</p><p>$119.00</p></div>
+                        <div class="img-con img-2"><img src="./assets/images/kitchen-2.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>light</p><p>$69.00</p></div>
+                        <div class="img-con img-3"><img src="./assets/images/kitchen-3.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>mini house plant</p><p>$59.00</p></div>
+                        <div class="img-con img-4"><img src="./assets/images/kitchen-4.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>light</p><p>$189.00</p></div>
+                    </div>
+                    <div class="button"><button>view more</button></div>
+            </section>
+            <section class="others">
+                    <div class="label"><a href="" id="bedroom">Bedroom</a></div>
+                    <div class="products">
+                        <div class="img-con img-1"><img src="./assets/images/candles-1.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>candles</p><p>$49.00</p></div>
+                        <div class="img-con img-2"><img src="./assets/images/light-1.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>side lamp</p><p>$79.00</p></div>
+                        <div class="img-con img-3"><img src="./assets/images/light-2.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>side tall light</p><p>$119.00</p></div>
+                        <div class="img-con img-4"><img src="./assets/images/interior2.jpg" alt=""><div class="filter"><p class="heart">	&#x2764;</div><p>light</p><p>$139.00</p></div>
+                    </div>
+                    <div class="button"><button>view more</button></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-content">
+                    <div class="form-left">
+                        <input type="name" class="name" placeholder="Enter Your Name">
+                        <input type="email" class="email" placeholder="Enter Your Email">
+                    </div>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                </div>
+                <button class="form-btn">Send</button>
+            </form>
+            
+            <div class="links">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Lookbook</a></li>
+                    <li><a href="">Furniture</a></li>
+                    <li><a href="">Interior</a></li>
+                    <li><a href="">News</a></li>
+                </ul>
+            </div>
+            <div class="sns">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="../design-portfolio/assets/js/interior.js"></script>
+</body>
+</html>

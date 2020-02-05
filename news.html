@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/news.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Portfolio News</title>
+</head>
+<body>
+    <header>
+            <div class="logo"><a href="../portfolio2/home.html"><img src="./assets/images/brick-icon.png" alt=""></a></div>
+            <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="lookbook.html">Lookbook</a></li>
+                <li><a href="furniture.html">Furniture</a></li>
+                <li><a href="interior.html">Interior</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </nav>
+        <p class="hbg-menu" onclick="myNavigation()">&#x2630;</p>
+        <div id="hbgNav" class="hbg-nav">
+            <div class="times"><p onclick="myNavClosing()">&#xd7;</p></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="lookbook.html">Lookbook</a></li>
+                <li><a href="furniture.html">Furniture</a></li>
+                <li><a href="interior.html">Interior</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="sidebar">
+                <h2>menu</h2>
+                <p class="right" onclick="myOpening()">&#x25ba;</p>
+                <p class="left" onclick="myClosing()">&#x25ba;</p>
+            </section>
+            <div id="sidebarMenu">
+                <ul>
+                    <li><strong><a href="furniture.html">Furniture</a></strong>
+                        <ul class="child">
+                            <li><a href="#table">Table</a></li>
+                            <li><a href="#chair">Chair</a></li>
+                            <li><a href="#couch">Couch</a></li>
+                            <li><a href="#other">Other</a></li>
+                        </ul>
+                    </li>
+                    <li><strong><a href="interior.html">Interior</a></strong>
+                        <ul class="child">
+                            <li><a href="interior.html#living-room">Living Room</a></li>
+                            <li><a href="interior.html#dining-room">Dining Room</a></li>
+                            <li><a href="interior.html#kitchen">Kitchen</a></li>
+                            <li><a href="interior.html#bedroom">Bedroom</a></li>
+                        </ul>
+                    </li>
+                    <li><strong><a href="news.html">News</a></strong></li>
+                </ul>
+            </div>
+        <section class="news-wrapper" id="newsWrapper">
+            <article class="news news-1">
+                <div class="img-wrapper">
+                    <img src="./assets/images/hygge-2.jpg" alt="">
+                    <div class="beforeAnimate txt-wrapper">
+                        <h2>PRE SALE <br> UP TO 40% OFF</h2>
+                    </div>
+                </div>
+                <p class="strong">2019 autumn & winter pre sale</p>
+                <p>2019/12/03</p>
+            </article>
+            <article class="news news-2">
+                <div class="img-wrapper">
+                    <img src="./assets/images/sparkle.jpg" alt="">
+                    <div class="beforeAnimate txt-wrapper">
+                        <h2>POP UP STORE <br> OPEN!</h2>
+                    </div>
+                </div>
+                <p class="strong">Our first pop up store will open in Tokyo in January 11!</p>
+                <p>2019/12/26</p>
+            </article>
+            <article class="news news-3">
+                <div class="img-wrapper">
+                    <img src="./assets/images/christmas.jpg" alt="">
+                    <div class="beforeAnimate txt-wrapper">
+                        <h2>CHRISTMAS <br> COLLECTION <br> 2019</h2>
+                    </div>
+                </div>
+                <p class="strong">Christmas collection 2019 will finaly be out!</p>
+                <p>2019/11/16</p>
+            </article>
+            <article class="news news-4">
+                <div class="img-wrapper">
+                    <img src="./assets/images/vintage.jpg" alt="">
+                    <div class="beforeAnimate txt-wrapper">
+                        <h2>VINTAGE FAIR<br> 10% OFF</h2>
+                    </div>
+                </div>
+                <p class="strong">Here comes vintage fair! November 10.11</p>
+                <p>2019/10/30</p>
+            </article>
+            <article class="news news-5">
+                <div class="img-wrapper">
+                    <img src="./assets/images/summer.jpg" alt="">
+                    <div class="beforeAnimate txt-wrapper">
+                        <h2>FINAL SALE<br> UP TO 50%</h2>
+                    </div>
+                </div>
+                <p class="strong">Summer goods are on final sale <br> last chance!</p>
+                <p>2019/09/16</p>
+            </article>
+            <article class="news news-6">
+                <div class="img-wrapper">
+                    <img src="./assets/images/autumn.jpg" alt="">
+                    <div class="beforeAnimate txt-wrapper">
+                        <h2>AUTUMN COLLECTION 2019<br> PRE ORDER</h2>
+                    </div>
+                </div>
+                <p class="strong">Autumn is almost coming get ready!</p>
+                <p>2019/08/29</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-content">
+                    <div class="form-left">
+                        <input type="name" class="name" placeholder="Enter Your Name">
+                        <input type="email" class="email" placeholder="Enter Your Email">
+                    </div>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                </div>
+                <button class="form-btn">Send</button>
+            </form>
+            
+            <div class="links">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Lookbook</a></li>
+                    <li><a href="">Furniture</a></li>
+                    <li><a href="">Interior</a></li>
+                    <li><a href="">News</a></li>
+                </ul>
+            </div>
+            <div class="sns">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="../design-portfolio/assets/js/news.js"></script>
+</body>
+</html>
